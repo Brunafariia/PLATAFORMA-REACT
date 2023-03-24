@@ -1,11 +1,8 @@
-// Atividade 1:
-
-// Atividade: Desenvolva um formulário de cadastro de super-heróis. Criar um formulário de cadastro de super-heróis que permita ao usuário inserir informações sobre um super-herói fictício. Para isso crie uma nova página. O formulário deve conter campos para a entrada de nome, poder, fraqueza e história. Utilize os recursos do React Hook Form para obter os dados passados e as mostre em uma caixa de dialogo (alert). Não se preocupe com validação dos dados! Para isso crie uma nova página.
 import { useState } from "react";
 import { Alert } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
-export function CadastroSuperHerois () {
+export function Herois() {
 
     const { register, handleSubmit } = useForm();
     const [heroi, setHeroi] = useState();
