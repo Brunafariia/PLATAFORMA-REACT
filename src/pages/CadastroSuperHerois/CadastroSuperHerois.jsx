@@ -8,13 +8,13 @@ export function CadastroSuperHerois () {
 
     const { register, handleSubmit } = useForm();
 
-    function onSubmitSuperHerois(data) {
+    function onSubmitSuperHerois(heroi) {
         alert(`
-        nome: ${data.nome}
-        poder: ${data.poder}
-        fraqueza: ${data.fraqueza}
-        historia: ${data.historia}
-        companhia:  ${data.companhia}`  
+        nome: ${heroi.nome}
+        poder: ${heroi.poder}
+        fraqueza: ${heroi.fraqueza}
+        historia: ${heroi.historia}
+        companhia:  ${heroi.companhia}`  
         );
     }
 
@@ -39,6 +39,7 @@ export function CadastroSuperHerois () {
                 
                 <hr />
                 <button type="submit">Cadastrar Herói</button>
+                
             </form>
         </div>
     );

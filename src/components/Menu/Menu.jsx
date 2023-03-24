@@ -27,7 +27,7 @@ export function Menu() {
                             <Link to="/pokemon">Pokemon</Link>
                         </Button>
                         <Button variant="link">
-                            <Link to="/superherois">Cadastro Super Heróis</Link>
+                            <Link to="/superherois"> Heróis</Link>
                         </Button>
                     </Nav>
                 </Container>
