@@ -11,6 +11,7 @@ import { Section } from './components/Section/Section';
 import { EditaUsuario } from './pages/EditaUsuario/EditaUsuario';
 import { Perfil } from './pages/Perfil/Perfil';
 import { Pokemon } from './pages/Pokemon/Pokemon';
+import { CadastroSuperHerois } from './pages/CadastroSuperHerois/CadastroSuperHerois'; 
 
 const sections = [
   {
@@ -51,6 +52,7 @@ function App() {
             <Route path="/login" element={<Login />} />
 
             <Route path="/pokemon" element={<Pokemon />} />
+            <Route path="/superherois" element={<CadastroSuperHerois />} />
 
             <Route path="*" element={<NotFound />} />
           </Route>

@@ -28,5 +28,5 @@ export function Pokemon() {
                 <button type="submit">Cadastrar</button>
             </form>
         </div>
-    )
+    );
 }
